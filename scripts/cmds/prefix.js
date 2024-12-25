@@ -16,21 +16,8 @@ module.exports = {
         if (event.body && event.body.toLowerCase() === "prefix") {
             // Liste étendue des réponses possibles
             const responses = [
-                "MON PREFIX EST [%]",
-                "Tu veux connaître mon prefix ? C'est 👉% !",
-                "Utilise [%], c'est mon prefix",
-                "Facile : mon prefix est [%] !",
-                "Ah, tu l’as oublié ? C’est [%]",
-                "Le secret ? Mon prefix est [%]",
-                "Je te donne un indice... [%]",
-                "Tu me cherches ? Utilise [%] pour m’appeler !",
-                "Mon préfixe préféré ? [%]",
-                "C’est pas compliqué, c’est [%]",
-                "Tu rêves de moi ? Utilise [%] !",
-                "Besoin d'aide ? Mon prefix est [%]",
-                "Hey, c’est % qu’il faut taper !",
-                "Un bot comme moi mérite un prefix stylé : [%].",
-                "Petit rappel : [%] est mon prefix."
+                "MON PREFIX EST [~]"
+                
             ];
 
             // Sélectionner une réponse aléatoire
