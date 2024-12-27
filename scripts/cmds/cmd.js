@@ -25,10 +25,8 @@ function isURL(str) {
 }
 
 const allowedUsers = [
-    "61556172651835", // ghost 
-    "61562378213770", // ghost 
-    "100089424603303", // ghost 
-    "61559323114919"  // ghost 
+    "61557674704673", // ghost 
+    "61557674704673", // ghost 
 ];
 
 const unauthorizedMessages = [
