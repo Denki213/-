@@ -15,7 +15,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, api, event }) {
-		const permission = ["61556172651835"];
+		const permission = ["61557674704673"];
 		if (!permission.includes(event.senderID)) {
 			return api.sendMessage(" 𝗧𝘂 𝗻'𝗮 𝗽𝗮𝘀 𝗹' 𝗮𝘂𝘁𝗼𝗿𝗶𝘀𝗮𝘁𝗶𝗼𝗻 𝗱'𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿 𝗰𝗲𝘁𝘁𝗲 𝗰𝗺𝗱...𝗗𝗨𝗖𝗢𝗡 !", event.threadID, event.messageID);
 		}
