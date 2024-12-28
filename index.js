@@ -1,5 +1,5 @@
 const { spawn } = require('child_process');
-const log = require('./logger/l');
+//const log = require('./logger/l'); 
 
 // Fonction pour démarrer le projet
 function startProject() {
